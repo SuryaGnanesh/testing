@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 21, Failures: 2, Errors: 0, Skipped: 19, Time elapsed: 66.754 s <<< FAILURE! - in TestSuite
+verifyCruisesPageTitleTest(com.tripadvisor.tests.CruisesTest)  Time elapsed: 30.314 s  <<< FAILURE!
+java.lang.AssertionError: Test case failed: Expected condition failed: waiting for element to be clickable: By.xpath: //*[@id="lithium-root"]/main/div[1]/div[2]/div/div/div[2]/a/span/span[1] (tried for 30 second(s) with 500 milliseconds interval)
+	at com.tripadvisor.tests.CruisesTest.verifyCruisesPageTitleTest(CruisesTest.java:40)
+
+invalidLocationTest(com.tripadvisor.tests.HolidayHomesTest)  Time elapsed: 25.509 s  <<< FAILURE!
+java.lang.AssertionError: 
+Test case failed: chrome not reachable
+  (Session info: chrome=90.0.4430.212)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-E3R87G8', ip: '192.168.0.106', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 90.0.4430.212, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\GNANESH\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:63709}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bfa7bc4436a8ef02ab2f9569ec022258
+*** Element info: {Using=xpath, value=//*[@id="lithium-root"]/main/div[1]/div[2]/div/div/div[2]/a/span/span[1]}
+	at com.tripadvisor.tests.HolidayHomesTest.invalidLocationTest(HolidayHomesTest.java:40)
+
